@@ -148,10 +148,6 @@ def main():
             elif event.type == MOUSEMOTION:
                 mousex, mousey = event.pos
                 paddle1.y = mousey
-            # Movement Upon Key Press
-               #Will Add Registers for moving paddles up and down
-               #using the up and down arrow on the keyboard, as well
-               #as mouse - allowing for mouse and keyboard input.
 
         drawArena()
         drawPaddle(paddle1)
