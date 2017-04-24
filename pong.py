@@ -3,8 +3,8 @@ from pygame.locals import *
 
 # Number of frames per second
 # Change this value to speed up or slow down your game
-FPS = 60
-INCREASESPEED = 15
+FPS = 120 
+INCREASESPEED = 1 
 #Global Variables to be used through our program
 WINDOWWIDTH = 400
 WINDOWHEIGHT = 300
@@ -148,10 +148,6 @@ def main():
             elif event.type == MOUSEMOTION:
                 mousex, mousey = event.pos
                 paddle1.y = mousey
-            # Movement Upon Key Press
-               #Will Add Registers for moving paddles up and down
-               #using the up and down arrow on the keyboard, as well
-               #as mouse - allowing for mouse and keyboard input.
 
         drawArena()
         drawPaddle(paddle1)
